@@ -45,7 +45,6 @@ class Model extends \Somtum\Model
     {
         // ตรวจสอบว่าเรียกมาจากไซต์ตัวเองหรือไม่
         if ($request->isReferer()) {
-            echo __FILE__;
             // ตรวจสอบว่ามีอะไรส่งมาบ้าง
             //var_dump($_POST);
             $save = array(
